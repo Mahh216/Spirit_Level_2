@@ -1,0 +1,47 @@
+.levelpoint{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: white;
+  Outline-color: black;
+  border-radius: 50%;
+}
+
+.spiritbalancer{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border: 20px solid #000;
+  border-radius: 40px;
+  background-color: white;
+}
+
+#bubble{
+  Position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 60px;
+  height: 60px;
+  background: blue;
+  border-radius: 100%;
+}
+
+.target{
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  top: 120px;
+  left: 120px;
+  background: red;
+  border-radius: 100%;
+  box-shadow: 0px 0px 0px 10px black;
+}
+
+button{
+  max-width: 200px;
+  display: inline;
+}
+
+#pagetwo{
+  display: none;
+}
